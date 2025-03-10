@@ -6,6 +6,7 @@
     "lint": "eslint --ignore-pattern .eslintignore --ext .js,.ts .",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "build": "tsc",
+    "test": "vitest run",
     "dev": "tsx --watch ./src/index.ts"
   },
   "author": "",
@@ -21,6 +22,7 @@
     "eslint-config-prettier": "^10.0.2",
     "prettier": "^3.5.3",
     "tsx": "^4.19.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
   }
 }
